@@ -110,7 +110,26 @@ a {
 }
 
 .slide-content {
-    max-width: 400px;
+    max-width: 500px;
+    position: relative;
+}
+
+.slider-buttons {
+    position: absolute;
+    right: 46px;
+    bottom: 40px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+}
+
+.slider-button {
+    cursor: pointer;
+}
+
+.swiper {
     position: relative;
 }
 
@@ -152,6 +171,18 @@ a {
 
 .slide-summer {
     background-image: url("../img/summer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slide-vitamins {
+    background-image: url("../img/vitamins.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slide-october {
+    background-image: url("../img/october.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
