@@ -170,18 +170,21 @@ body {
     background-image: url("../img/summer.png");
     background-repeat: no-repeat;
     background-size: cover;
+    min-height: 440px;
 }
 
 .slide-vitamins {
     background-image: url("../img/vitamins.png");
     background-repeat: no-repeat;
     background-size: cover;
+    min-height: 440px;
 }
 
 .slide-october {
-    background-image: url("../img/october");
+    background-image: url("../img/october.png");
     background-repeat: no-repeat;
     background-size: cover;
+    min-height: 440px;
 }
 
 .slide:before {
@@ -333,7 +336,7 @@ body {
     color: #fff;
 }
 
-.tag-poultry {
+.tag-chicken {
     background: #d68334;
     color: #fff;
 }
@@ -347,11 +350,11 @@ body {
     background: #fffdbf;
 }
 
-.tag-parents {
+.tag-parent {
     background: #f6fdc8;
 }
 
-.tag-weekend {
+.tag-special {
     background: #fef7fe;
 }
 
