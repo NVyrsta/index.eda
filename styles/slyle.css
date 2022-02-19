@@ -172,6 +172,18 @@ body {
     background-size: cover;
 }
 
+.slide-vitamins {
+    background-image: url("../img/vitamins.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slide-october {
+    background-image: url("../img/october");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .slide:before {
     content: "";
     position: absolute;
