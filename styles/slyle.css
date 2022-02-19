@@ -251,3 +251,223 @@ a {
     z-index: -2;
     object-fit: cover;
 }
+
+.section-title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 23px;
+    margin-top: 0;
+    margin-bottom: 47px;
+}
+
+.delivery-week {
+    padding: 100px 0px;
+}
+
+.delivery-cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+}
+
+.delivery-card {
+    position: relative;
+    width: 275px;
+    height: 182px;
+    border-radius: 18px;
+    overflow: hidden;
+    margin: 15px;
+}
+
+.delivery-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.delivery-tag {
+    position: absolute;
+    left: 10px;
+    top: 16px;
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #49494f;
+    padding: 5px 10px;
+}
+
+.tag-health {
+    background-color: #d0fd89;
+}
+
+.tag-veg {
+    background-color: #aebc41;
+    color: #fff;
+}
+
+.tag-meat {
+    background-color: #b86b78;
+    color: #fff;
+}
+
+.tag-chicken {
+    background-color: #d68334;
+    color: #fff;
+}
+
+.tag-fish {
+    background-color: #cd6255;
+    color: #fff;
+}
+
+.tag-kids {
+    background-color: #fffdbf;
+}
+
+.tag-parent {
+    background-color: #f6fdc8;
+}
+
+.tag-special {
+    background-color: #fef7fe;
+}
+
+.section-grey {
+    background: #f6f6f6;
+}
+
+.category {
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.tabs {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 62px;
+}
+
+.tabs-link {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #49494f;
+    margin-right: 58px;
+}
+
+.tabs-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tabs-link.active {
+    color: #f37321;
+}
+
+.tabs-card {
+    max-width: 270px;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.tabs-image {
+    max-width: 100%;
+}
+
+.tabs-card-content {
+    padding: 23px;
+}
+
+.tabs-title {
+    margin-top: 0;
+    margin-bottom: 13px;
+}
+
+.tabs-description {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    color: #b9b9be;
+}
+
+.tabs-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tabs-price {
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 23px;
+    color: #4b4b51;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.tabs-weight {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #aaaab1;
+}
+
+.button-outline {
+    background-color: transparent;
+    border-radius: 33px;
+    box-sizing: border-box;
+    border: 2px solid #f37321;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #f37321;
+    padding: 16px 25px;
+}
+
+.button-center {
+    display: block;
+    margin: auto;
+    margin-top: 60px;
+    width: 315px;
+    cursor: pointer;
+}
+
+
+/* ---------FOOTER-------- */
+
+.footer {
+    padding: 40px 0;
+    background: #f6f6f6;
+}
+
+.footer-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo {
+    margin-right: 50px;
+}
+
+.footer-link {
+    font-size: 16px;
+    line-height: 23px;
+    text-decoration-line: underline;
+    color: #000000;
+    margin-right: 50px;
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.social-link {
+    margin-left: 20px;
+    text-decoration: none;
+}
