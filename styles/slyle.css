@@ -626,6 +626,9 @@ body {
     .container {
         max-width: 560px;
     }
+    h2 {
+        text-align: center;
+    }
     .header {
         flex-wrap: wrap;
     }
@@ -645,8 +648,47 @@ body {
     .container {
         max-width: 90%;
     }
+    h2 {
+        text-align: center;
+    }
+    .slide {
+        padding: 10px;
+    }
+    .slide-content {
+        padding: 10px;
+    }
+    .slide-title {
+        font-size: 40px;
+        text-align: center;
+    }
+    .delivery-week {
+        padding-top: 30px;
+    }
+    .button-primary {
+        padding: 9px 18px;
+    }
+    .button-default {
+        padding: 9px 18px;
+    }
+    li {
+        text-align: center;
+    }
+    .tabs-link {
+        padding: 10px;
+        margin-right: 0;
+    }
+    .slider-buttons {
+        bottom: 10px;
+        right: 10px;
+    }
     .tabs-card {
         max-width: 100%;
+    }
+    .button-center {
+        width: 160px;
+    }
+    .our-benefits {
+        padding-top: 20px;
     }
     .benefit {
         max-width: 100%;
